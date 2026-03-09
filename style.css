@@ -338,3 +338,79 @@ border-top:1px solid #333;
 padding-top:20px;
 color:#aaa;
 }
+
+/* RESPONSIVO CELULAR */
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+gap:15px;
+padding:15px;
+}
+
+.logo img{
+height:80px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+nav a{
+margin-left:0;
+font-size:14px;
+}
+
+.hero{
+height:auto;
+padding:120px 20px 60px 20px;
+text-align:center;
+justify-content:center;
+}
+
+.hero-text{
+padding:25px;
+}
+
+.hero h2{
+font-size:32px;
+}
+
+.section{
+padding:60px 20px;
+}
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:100%;
+max-width:320px;
+}
+
+.clientes-carousel{
+gap:30px;
+}
+
+.clientes-carousel img{
+height:40px;
+}
+
+.footer-container{
+flex-direction:column;
+text-align:center;
+gap:30px;
+}
+
+.whatsapp{
+width:55px;
+height:55px;
+font-size:24px;
+}
+
+}
